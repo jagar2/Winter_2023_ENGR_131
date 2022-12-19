@@ -2,16 +2,16 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: jupyterbook/intro
 options:
   numbered: true
 parts:
   - caption: "Syllabus \U0001F4DC"
     chapters:
-      - file: syllabus
+      - file: jupyterbook/syllabus
         title: "Syllabus"
   - caption: "Lectures"
     chapters:
-      - file: lectures/lectures_toc
+      - file: jupyterbook/lectures/lectures_toc
         sections:
-          - file: notebooks
+          - file: jupyterbook/notebooks
