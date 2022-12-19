@@ -6,10 +6,12 @@ root: intro
 options:
   numbered: true
 parts:
-- caption: "Syllabus \U0001F4DC"
-  chapters:
-    - file: intro
-      title: "Syllabus"
-- caption: "Lectures"
-  chapters:
-    -file: notebooks
+  - caption: "Syllabus \U0001F4DC"
+    chapters:
+      - file: syllabus
+        title: "Syllabus"
+  - caption: "Lectures"
+    chapters:
+      - file: lectures/lectures_toc
+        sections:
+          - file: notebooks
